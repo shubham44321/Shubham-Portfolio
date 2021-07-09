@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); */
 
 :root {
-  --primary-color: #4B5563;
-  --light-color: #9CA3AF;
-  --off-white: #F3F4F6;
+  --primary-color: #4b5563;
+  --light-color: #9ca3af;
+  --off-white: #f3f4f6;
 }
 
 body {
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   margin: 0px;
 }
 
@@ -105,7 +105,7 @@ hr {
 
 /* Sections */
 .section {
-  padding: 3rem;
+  padding: 3rem 3rem;
 }
 
 .section h1 {
@@ -113,7 +113,7 @@ hr {
 }
 
 .ow {
-  background-color: var(--off-white)
+  background-color: var(--off-white);
 }
 
 /* footer */
@@ -156,7 +156,7 @@ hr {
   max-width: 600px;
   display: block;
   margin: auto;
-  padding: 2rem;;
+  padding: 2rem;
 }
 
 .blog-details .blog-heading {
@@ -165,11 +165,13 @@ hr {
   font-size: xx-large;
 }
 
-.blog-details .blog-body{
-  
+.blog-details .blog-body {
 }
 
 a.disabled {
   pointer-events: none;
   cursor: default;
+}
+ol {
+  padding-inline-start: 0px !important;
 }
