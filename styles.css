@@ -110,7 +110,14 @@ hr {
   padding: 3rem 3rem;
 }
 
+.section-blog {
+  padding: 0rem 0.5rem;
+}
 .section h1 {
+  text-align: center;
+}
+
+.section-blog h1 {
   text-align: center;
 }
 
@@ -176,4 +183,17 @@ a.disabled {
 }
 ol {
   padding-inline-start: 0px !important;
+}
+
+.code-img {
+  width: 100%;
+  background-color: #1d1d1d;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-details .blog-img {
+    height: 100px;
+    margin-right: 4rem;
+  }
 }
